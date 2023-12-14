@@ -1,4 +1,14 @@
- 
+ @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap');
  @tailwind base;
     @tailwind components;
     @tailwind utilities;
+body {
+
+  font-family: 'Plus Jakarta Sans', sans-serif;
+}
+.gradient-bg {
+  background: linear-gradient(0deg, #FFF, rgba(255, 255, 255, 0)), url('./assets/Gradient.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
