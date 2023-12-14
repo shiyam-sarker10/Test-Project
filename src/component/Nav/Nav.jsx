@@ -37,7 +37,7 @@ const Nav = () => {
      );
     
     return (
-      <div className="flex justify-between px-4 z-20 md:items-center py-6 relative">
+      <div className="flex justify-between max-w-[1366px] mx-auto px-4 z-20 md:items-center py-6 relative">
         {/* start  */}
         <div className="hidden md:block">
           <h1 className="text-2xl text-gray-700">UniCraft</h1>

@@ -4,7 +4,7 @@ import Button from '../shared/Button';
 
 const Banner = () => {
     return (
-      <div className="py-20 space-y-6 text-center px-2">
+      <div className="my-20 space-y-6 text-center px-2">
         <h1 className="text-4xl md:text-5xl lg:text-7xl font-bold text-color text-center md:w-[90%]  mx-auto">
           Elevate Your Presence with Seamless Design and Innovation.
         </h1>
