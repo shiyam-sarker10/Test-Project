@@ -1,6 +1,8 @@
 import Nav from "./component/Nav/Nav"
 import Banner from './component/Banner/Banner';
 import TrustedCompanies from "./component/TrustedCompanies/TrustedCompanies";
+import ImageCarousel from "./component/imageCarousel/imageCarousel";
+
 
 
 function App() {
@@ -14,6 +16,7 @@ function App() {
         <div></div>
       </div>
       <TrustedCompanies></TrustedCompanies>
+      <ImageCarousel></ImageCarousel>
     </div>
   );
 }
