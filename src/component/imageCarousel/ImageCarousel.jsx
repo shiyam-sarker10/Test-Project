@@ -32,8 +32,13 @@ const responsive = {
 };
 
   return (
-    <div className="py-20 space-y-16">
-      <Carousel responsive={responsive} infinite={true}>
+    <div className="py-20 space-y-16 px-4 max-w-[1366px] mx-auto">
+      <Carousel
+        responsive={responsive}
+        infinite={true}
+        autoPlaySpeed={1000}
+        
+      >
         <div className="px-4 shadow-md">
           <img className="w-[500px] h-[600px] rounded-lg  " src={c1} alt="" />
         </div>
@@ -63,7 +68,6 @@ const responsive = {
       <div className="text-center">
         <OutlineButton text="View recent work"></OutlineButton>
       </div>
-      
     </div>
   );
 };

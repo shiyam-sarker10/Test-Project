@@ -7,7 +7,7 @@ import amazon from '../../assets/amazon.png'
 
 const TrustedCompanies = () => {
     return (
-      <div className="text-center space-y-3 my-20">
+      <div className="text-center space-y-3 my-20 max-w-[1366px] mx-auto px-4">
         <p className='text-gray-400'>Trusted By 250+ Companies</p>
         <div className="flex flex-wrap justify-center items-center gap-14">
           <img className="w-[100px]" src={zoom} alt="" />
