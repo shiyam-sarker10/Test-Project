@@ -3,6 +3,7 @@ import Banner from './component/Banner/Banner';
 import TrustedCompanies from "./component/TrustedCompanies/TrustedCompanies";
 import ImageCarousel from "./component/imageCarousel/imageCarousel";
 import HowItWorks from "./component/HowItWorks/HowItWorks";
+import Testimonial from "./component/testimonial/Testimonial";
 
 
 
@@ -19,6 +20,7 @@ function App() {
       <TrustedCompanies></TrustedCompanies>
       <ImageCarousel></ImageCarousel>
       <HowItWorks></HowItWorks>
+      <Testimonial></Testimonial>
     </div>
   );
 }
