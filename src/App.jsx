@@ -5,6 +5,7 @@ import ImageCarousel from "./component/imageCarousel/imageCarousel";
 import HowItWorks from "./component/HowItWorks/HowItWorks";
 import Testimonial from "./component/testimonial/Testimonial";
 import Pricing from "./component/Pricing/Pricing";
+import FAQ from "./component/FAQ/FAQ";
 
 
 
@@ -23,6 +24,7 @@ function App() {
       <HowItWorks></HowItWorks>
       <Testimonial></Testimonial>
       <Pricing></Pricing>
+      <FAQ></FAQ>
     </div>
   );
 }
