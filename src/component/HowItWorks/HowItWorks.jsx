@@ -6,7 +6,7 @@ import arrowRight from "../../assets/arrow-right.png";
 const HowItWorks = () => {
   return (
     <div className="max-w-[1366px] mx-auto px-4 my-20">
-      <div className="text-center flex flex-col  p-10  custom-shadow ">
+      <div className="text-center flex flex-col  p-20  custom-shadow rounded-lg border border-gray-100">
         <div className="mb-10 space-y-4">
           <h1 className="text-3xl lg:text-5xl font-semibold text-color">
             How It Works

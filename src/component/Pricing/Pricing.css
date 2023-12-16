@@ -1,0 +1,35 @@
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+.white-box li {
+  display: flex;
+  align-items: center; /* Center items vertically */
+  margin-bottom: 8px; /* Adjust the margin between items if needed */
+  color:#1F2937;
+  
+}
+
+.white-box li::before {
+content: url('../../assets/black-tick.svg'); /* Replace 'path/to/custom-icon.svg' with the actual path to your SVG file */
+  display: inline-block;
+  width: 16px; /* Adjust the width of the icon */
+  height: 16px; /* Adjust the height of the icon */
+  margin-right: 8px; 
+}
+.black-box li {
+  display: flex;
+  align-items: center; /* Center items vertically */
+  margin-bottom: 8px; /* Adjust the margin between items if needed */
+  color:white;
+  
+}
+
+.black-box li::before {
+content: url('../../assets/white-tick.svg'); /* Replace 'path/to/custom-icon.svg' with the actual path to your SVG file */
+  display: inline-block;
+  width: 16px; /* Adjust the width of the icon */
+  height: 16px; /* Adjust the height of the icon */
+  margin-right: 8px; 
+}
