@@ -2,6 +2,9 @@ ul {
   list-style: none;
   padding: 0;
 }
+ul li {
+   font-size: 14px;
+}
 
 .white-box li {
   display: flex;
@@ -23,6 +26,7 @@ content: url('../../assets/black-tick.svg'); /* Replace 'path/to/custom-icon.svg
   align-items: center; /* Center items vertically */
   margin-bottom: 8px; /* Adjust the margin between items if needed */
   color:white;
+ 
   
 }
 

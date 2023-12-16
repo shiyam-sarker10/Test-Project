@@ -19,7 +19,7 @@ const Pricing = () => {
         {/* cards  */}
         <div className="flex flex-wrap justify-center gap-6">
           {/* perCard */}
-          <div className="px-6 py-10  md:w-[350px] lg:w-[390px] duration-500 ease-out border rounded-xl bg-white space-y-6 custom-shadow">
+          <div className="px-6 py-10  max-w-[350px] duration-500 ease-out border rounded-xl bg-white space-y-6 custom-shadow">
             <div className="space-y-2">
               <h3 className="text-xl font-semibold text-gray-800">Freebie</h3>
               <p className="text-gray-500 w-full">
@@ -51,7 +51,7 @@ const Pricing = () => {
             </ul>
           </div>
           {/* perCard */}
-          <div className="px-6 py-10 md:w-[350px] lg:w-[390px] duration-500 ease-out border rounded-xl bg-[#1F2937] custom-shadow text-white space-y-6">
+          <div className="px-6 py-10 max-w-[350px] duration-500 ease-out border rounded-xl bg-[#1F2937] custom-shadow text-white space-y-6">
             <div className="space-y-2">
               <h3 className="text-xl font-semibold text-white">Professional</h3>
               <p className="text-white w-full ">
@@ -82,7 +82,7 @@ const Pricing = () => {
             </ul>
           </div>
           {/* perCard */}
-          <div className="px-6 py-10 md:w-[350px] lg:w-[390px] duration-500 ease-out border rounded-xl custom-shadow bg-white space-y-6">
+          <div className="px-6 py-10 max-w-[350px] duration-500 ease-out border rounded-xl custom-shadow bg-white space-y-6">
             <div className="space-y-2">
               <h3 className="text-xl font-semibold text-gray-800">
                 Enterprise

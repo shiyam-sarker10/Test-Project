@@ -40,7 +40,7 @@ const Nav = () => {
       <div className="flex justify-between max-w-[1366px] mx-auto px-4 z-20 md:items-center py-6 relative">
         {/* start  */}
         <div className="hidden md:block">
-          <h1 className="text-2xl text-gray-700">UniCraft</h1>
+          <h1 className="text-2xl text-gray-700 font-bold">UniCraft</h1>
         </div>
         {/* center  */}
         <div className="hidden md:block">{navList}</div>

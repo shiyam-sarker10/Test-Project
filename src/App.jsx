@@ -7,6 +7,7 @@ import Testimonial from "./component/testimonial/Testimonial";
 import Pricing from "./component/Pricing/Pricing";
 import FAQ from "./component/FAQ/FAQ";
 import ContactUs from "./component/ContactUs/ContactUs";
+import Footer from "./component/Footer/Footer";
 
 
 
@@ -26,9 +27,10 @@ function App() {
       <Testimonial></Testimonial>
       <Pricing></Pricing>
       <FAQ></FAQ>
-      <div className="gradient-bg-footer">
+      <div className="md:gradient-bg-footer gradient-bg">
         <ContactUs></ContactUs>
-        <hr />
+        <hr className="max-w-[1366px] mx-auto" />
+        <Footer></Footer>
       </div>
     </div>
   );
