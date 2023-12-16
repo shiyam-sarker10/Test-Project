@@ -6,6 +6,7 @@ import HowItWorks from "./component/HowItWorks/HowItWorks";
 import Testimonial from "./component/testimonial/Testimonial";
 import Pricing from "./component/Pricing/Pricing";
 import FAQ from "./component/FAQ/FAQ";
+import ContactUs from "./component/ContactUs/ContactUs";
 
 
 
@@ -25,6 +26,10 @@ function App() {
       <Testimonial></Testimonial>
       <Pricing></Pricing>
       <FAQ></FAQ>
+      <div className="gradient-bg-footer">
+        <ContactUs></ContactUs>
+        <hr />
+      </div>
     </div>
   );
 }
