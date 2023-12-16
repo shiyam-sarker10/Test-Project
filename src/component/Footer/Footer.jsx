@@ -14,7 +14,7 @@ const Footer = () => {
           <h1 className="text-2xl text-gray-700 font-bold text-center md:text-left">
             UniCraft
           </h1>
-          <p className="md:w-1/3 text-gray-500/90  font-semibold text-center md:text-left">
+          <p className="md:w-[60%]  text-gray-500/90  font-semibold text-center md:text-left">
             Design amazing digital experiences that create more happy in the
             world.
           </p>
